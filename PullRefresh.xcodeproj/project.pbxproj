@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		448A9F701C2DD81C00E03A94 /* PullToRefreshManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448A9F6F1C2DD81C00E03A94 /* PullToRefreshManager.swift */; settings = {ASSET_TAGS = (); }; };
 		C07F5C771B22CF12001A33E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F5C761B22CF12001A33E7 /* AppDelegate.swift */; };
 		C07F5C791B22CF12001A33E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F5C781B22CF12001A33E7 /* ViewController.swift */; };
 		C07F5C7C1B22CF12001A33E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C07F5C7A1B22CF12001A33E7 /* Main.storyboard */; };
 		C07F5C7E1B22CF12001A33E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07F5C7D1B22CF12001A33E7 /* Images.xcassets */; };
 		C07F5C811B22CF12001A33E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07F5C7F1B22CF12001A33E7 /* LaunchScreen.xib */; };
 		C07F5C8D1B22CF12001A33E7 /* PullRefreshTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07F5C8C1B22CF12001A33E7 /* PullRefreshTests.swift */; };
+		C07F5C971B22D05A001A33E7 /* RefreshContents.xib in Resources */ = {isa = PBXBuildFile; fileRef = C07F5C961B22D05A001A33E7 /* RefreshContents.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		448A9F6F1C2DD81C00E03A94 /* PullToRefreshManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PullToRefreshManager.swift; path = ../PullToRefreshManager/PullToRefreshManager.swift; sourceTree = "<group>"; };
 		C07F5C711B22CF12001A33E7 /* PullRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PullRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07F5C751B22CF12001A33E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07F5C761B22CF12001A33E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		C07F5C861B22CF12001A33E7 /* PullRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PullRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07F5C8B1B22CF12001A33E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C07F5C8C1B22CF12001A33E7 /* PullRefreshTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PullRefreshTests.swift; sourceTree = "<group>"; };
+		C07F5C961B22D05A001A33E7 /* RefreshContents.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefreshContents.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		448A9F711C2DD82500E03A94 /* PullToRefreshManager */ = {
+			isa = PBXGroup;
+			children = (
+				448A9F6F1C2DD81C00E03A94 /* PullToRefreshManager.swift */,
+				C07F5C961B22D05A001A33E7 /* RefreshContents.xib */,
+			);
+			name = PullToRefreshManager;
+			sourceTree = "<group>";
+		};
 		C07F5C681B22CF12001A33E7 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +93,7 @@
 				C07F5C761B22CF12001A33E7 /* AppDelegate.swift */,
 				C07F5C781B22CF12001A33E7 /* ViewController.swift */,
 				C07F5C7A1B22CF12001A33E7 /* Main.storyboard */,
+				448A9F711C2DD82500E03A94 /* PullToRefreshManager */,
 				C07F5C7D1B22CF12001A33E7 /* Images.xcassets */,
 				C07F5C7F1B22CF12001A33E7 /* LaunchScreen.xib */,
 				C07F5C741B22CF12001A33E7 /* Supporting Files */,
@@ -156,6 +170,7 @@
 		C07F5C691B22CF12001A33E7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = Appcoda;
 				TargetAttributes = {
@@ -193,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C07F5C7C1B22CF12001A33E7 /* Main.storyboard in Resources */,
+				C07F5C971B22D05A001A33E7 /* RefreshContents.xib in Resources */,
 				C07F5C811B22CF12001A33E7 /* LaunchScreen.xib in Resources */,
 				C07F5C7E1B22CF12001A33E7 /* Images.xcassets in Resources */,
 			);
@@ -212,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				448A9F701C2DD81C00E03A94 /* PullToRefreshManager.swift in Sources */,
 				C07F5C791B22CF12001A33E7 /* ViewController.swift in Sources */,
 				C07F5C771B22CF12001A33E7 /* AppDelegate.swift in Sources */,
 			);
@@ -409,6 +426,7 @@
 				C07F5C921B22CF12001A33E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C07F5C931B22CF12001A33E7 /* Build configuration list for PBXNativeTarget "PullRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +435,7 @@
 				C07F5C951B22CF12001A33E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
